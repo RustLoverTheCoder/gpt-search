@@ -41,6 +41,8 @@ export const HomePage = () => {
               </div>
               <input
                 type="text"
+                name='q'
+                value=""
                 className="input outline-none border-0 flex-1 focus:outline-none"
               />
               <div className="w-auto h-full flex items-center">
