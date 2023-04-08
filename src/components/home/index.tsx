@@ -34,7 +34,7 @@ export const HomePage = () => {
       </div>
       <div className="w-full p-5 min-h-[160px] shrink-0">
         <form action="/search" autoComplete="off" method="GET" role="search">
-          <div className="w-full max-w-[584px] mx-auto rounded-3xl border border-[#dfe1e5] min-h-[44px] flex">
+          <div className="w-full max-w-[584px] mx-auto rounded-3xl border border-[#dfe1e5] dark:border-base-content min-h-[44px] flex group hover:border-primary focus:border-primary focus-visible:border-primary focus-within:border-primary">
             <div className="flex-1 flex pl-3.5 pr-3.5">
               <div className="w-auto h-full flex items-center">
                 <MagnifyingGlassIcon className="w-6 h-6 text-[#9aa0a6]" />
@@ -53,9 +53,7 @@ export const HomePage = () => {
       <div className="flex-grow shrink-0"></div>
       <div className="bg-base-200 w-full shrink-0 px-5 flex items-center justify-between">
         <div className="flex items-center justify-center">
-          <div className="p-[15px] text-sm text-base-content">
-            {title} 0.1.1
-          </div>
+          <div className="p-[15px] text-sm text-base-content">0.1.1</div>
         </div>
         <div className="flex items-center justify-center">
           <a href="/privacy" className="p-[15px] text-sm text-base-content">
