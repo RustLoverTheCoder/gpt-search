@@ -1,6 +1,6 @@
-import { Header } from "../header";
+import { Header } from "./header";
 import { Footer } from "../footer";
-import { SearchSection } from "../SearchSection";
+import { SearchSection } from "./SearchSection";
 import '../global.css'
 
 export const HomePage = () => {

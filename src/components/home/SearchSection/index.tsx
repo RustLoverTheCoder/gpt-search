@@ -11,7 +11,7 @@ export const SearchSection = () => {
                             type="text"
                             name="q"
                             placeholder="搜索"
-                            className="input w-full max-w-lg p-4 placeholder-zinc-400 bg-white dark:bg-zinc-800 rounded-md appearance-none text-sm input-primary border-transparent"
+                            className="input w-full max-w-lg p-4 placeholder-zinc-400 bg-white dark:bg-zinc-800 rounded-md appearance-none text-sm border-transparent"
                         />
                     </form>
                 </div>
