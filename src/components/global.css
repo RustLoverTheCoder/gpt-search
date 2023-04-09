@@ -1,0 +1,11 @@
+.tbc {
+    @apply border-[#E4E4E7] dark:border-[#3F3F46];
+}
+
+.card {
+    @apply overflow-hidden border rounded-xl bg-white dark:bg-[#27272A];
+}
+
+a {
+    @apply cursor-pointer;
+}
